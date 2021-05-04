@@ -1,0 +1,89 @@
+#container{
+    width: 1200px;
+    height: 700px;
+    
+    display: flex;
+    flex-direction: row;
+
+    margin: 0 auto;
+}
+#left-container{
+    width: 900px;
+}
+#right-container{
+    background-color: lightgray;
+    width: 300px;
+    
+}
+#professor{
+    height: 500px;
+    background-color:lightgray;
+    
+}
+#video-grid{
+    
+    display:grid;
+    grid-template-columns: repeat(auto-fill, 290px);
+    grid-column-gap: 3px;
+    
+    height: 150px;
+    background-color: lightgray; 
+}
+
+#student-grid > video{
+    background-color: violet;
+    width: 100%;
+    height: 100%;
+}
+#controll-bar{
+    height: 50px;
+    background-color: gray;
+}
+
+#chat-log{
+    margin: 5px;
+    height: 400px;
+    background-color: white;
+}
+
+#msg-container{
+    margin: 5px;
+    height: 135px;
+    background-color: white;
+}
+
+#msg-container > textarea{
+    height:130px;
+    width: 280px;
+    border: none;
+}
+
+#translation{
+    margin: 5px;
+    height: 120px;
+    background-color: white;
+}
+
+#translation > textarea{
+    height:115px;
+    width: 280px;
+    border: none;
+}
+
+#subtitle{
+    position: relative;
+    border: 1px solid black;
+    width: 850px;
+    height: 80px;
+
+    top: 400px;
+    left: 25px;
+}
+
+#subtitle > textarea{
+    position: relative;
+    background-color:white;
+    border:white;
+    width: 845px;
+    height: 75px;
+}
